@@ -1,0 +1,89 @@
+
+.slider-content{
+    width:80%;
+    margin:150px auto;
+    max-width: 900px;
+    overflow: hidden;
+    border: 3px solid black;
+    box-shadow:5px 5px 5px gray;
+}
+.slider{
+    display:flex;
+    width:400%;
+    height:300px;
+}
+.slidersection{
+    width:100%;
+}
+.sliderImg{
+    display:block;
+    width:100%;
+    height:100%;
+}
+.rotulo-title{
+    position: relative;
+    margin-bottom:60px;
+    margin-top:120px;
+    margin-left:30%;
+    width: 400px;
+    height:450px;
+    border: 2px solid #fff;
+    border-radius:16px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(180deg,rgb(247, 247, 247),rgb(203, 201, 201));
+    flex-wrap: wrap;
+}
+.titleParrillada{
+    width:60%;
+    height:50px; 
+    color:goldenrod;
+    background:#fff;
+    margin:-20px auto;
+    border-radius:16px;
+    border: 2px solid #87662d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Times New Roman', Times, serif;
+}
+#ring{
+margin: 10px 25px;
+width:15px;
+height:15px;
+border-radius:50%;
+background-color: #fff;
+border: 2px solid #87662d;
+}
+#insiderotulo{
+    background: rgb(199, 198, 198);
+    width:90%;
+    height:350px;
+    border-radius:14px;
+    display:flex;
+    flex-wrap: wrap;
+}
+#rotfood{
+    width: 150px;
+    height:150px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+}
+#rotfood h3{
+    color: gold;
+    font-size: 1.4em;
+}
+#rotfood p{
+color: #fff;
+margin: -5px 0;
+}
+
+@media(max-width:800px){
+   
+.rotulo-title{
+   margin-top:150px;
+   margin-left: 15px;
+  width:385px;
+}
+}
